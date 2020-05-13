@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  width: 30em;
 }
 
 .title {
@@ -8,9 +9,24 @@
 }
 
 .header {
-  position: absolute;
+  position: fixed;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   left: 30%;
+  z-index: 0;
+}
+
+.fishPics {
+  width: 350px;
+  margin: 50px;
+  z-index: 1;
+  position: relative;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.pictureScroll {
+  /* width: 30em; */
 }
