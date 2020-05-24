@@ -1,5 +1,11 @@
 #root {
   height: 100%;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .App {
@@ -29,6 +35,11 @@
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
+  transition: width 1.5s;
+}
+
+.fishPics:hover {
+  width: 400px;
 }
 
 .pictureScroll {
@@ -41,14 +52,18 @@
   height: 100vh;
   align-items: center;
   padding-top: 40%;
-  padding-left: 15%;
+  /* padding-left: 15%; */
+}
+
+.link {
+  margin: 10%;
+  color: white;
+  font-size: 30px;
 }
 
 .links {
-  margin: 100px;
-  color: white;
-  font-size: 30px;
-
+  align-content: center;
+  text-align: center;
 }
 
 .homeTitle {
