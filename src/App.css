@@ -1,3 +1,7 @@
+#root {
+  height: 100%;
+}
+
 .App {
   text-align: center;
   width: 30em;
@@ -28,5 +32,26 @@
 }
 
 .pictureScroll {
-  /* width: 30em; */
+  width: 300%;
+  overflow: scroll;
+}
+
+.homeScreen {
+  background-color: #4C212A;
+  height: 100vh;
+  align-items: center;
+  padding-top: 40%;
+  padding-left: 15%;
+}
+
+.links {
+  margin: 100px;
+  color: white;
+  font-size: 30px;
+
+}
+
+.homeTitle {
+  font-size: 80px;
+  color: white;
 }
